@@ -1,0 +1,19 @@
+{
+  "name": "nightwatch_configuration",
+  "version": "1.0.0",
+  "description": "A E2E testing solution using Nightwatch JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nightwatch": "nightwatch -c nightwatch.conf.js -e chrome,firefox",
+    "nightwatch-specific": "nightwatch -c nightwatch.conf.js -e chrome --test tests/features/google.test.js"
+  },
+  "author": "Partha Roy",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^2.44.1",
+    "geckodriver": "^1.14.1",
+    "nightwatch": "^0.9.21",
+    "selenium-server": "^3.141.59"
+  }
+}

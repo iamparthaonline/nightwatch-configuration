@@ -1,0 +1,11 @@
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Test Reports 
+reports/
+
+# Selenium logs
+selenium-debug.log
