@@ -31,10 +31,10 @@ We support a collection of templates, organized in this way:
 - [`Reports`](./reports) contains the reports for the tests. 
 
 ## System Requirements
-Node js
-Java
-Selenium Web driver
-Browser specific Web drivers
+- Node js
+- Java
+- Selenium Web driver
+- Browser specific Web drivers
 
 ## Installation
 
